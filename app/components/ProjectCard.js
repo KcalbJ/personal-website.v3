@@ -8,6 +8,7 @@ function ProjectCard({ card }) {
       <div className="bg-gradient-to-b from-slate-800 to-transparent flex lg:flex-row flex-col hover:bg-slate-800 px-6 py-4 rounded-md">
        
       <Image
+            unoptimized
             src={card.url}
             width={150}
             height={50}
@@ -51,8 +52,8 @@ function ProjectCard({ card }) {
           <div className="flex-wrap flex gap-4 py-4">
             {card.stack.map((x) => {
               return (
-                <div className="   p-0.5 mb-2 text-sm rounded-md overflow-hidden bg-gradient-to-br from-teal-300 to-lime-300 text-slate-200">
-                  <p className=" px-4 py-2  bg-gray-800  rounded-md ">{x}</p>
+                <div key={x} className="   p-0.5 mb-2 text-sm rounded-md overflow-hidden bg-gradient-to-br from-teal-300 to-lime-300 text-slate-200">
+                  <p className=" px-4 py-2 bg-gray-800 rounded-md" >{x}</p>
                 </div>
               );
             })}

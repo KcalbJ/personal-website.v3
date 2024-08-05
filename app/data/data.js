@@ -1,12 +1,22 @@
 import image1 from '../../public/newsbackend.png'
 import image2 from '../../public/newsli.png'
 import image3 from '../../public/beanly.png'
-
+import image4 from  '../../public/events.png'
 export const cards = [
+  {
+    url: image4,
+    title: "EVENTS APP",
+    id: 1,
+    git: 'https://github.com/KcalbJ/events-app',
+    hosted: 'https://events-app-lilac.vercel.app/',
+    stack: ["Nextjs", "Prisma", "Tailwind", "Postgress" , "Authjs"],
+    alt: 'Screen shot of events app',
+    description: 'This project is a web application for managing events, integrating features like user authentication, database management, Google Calendar for scheduling, and Stripe for payment processing.'
+    },
     {
       url: image1,
       title: "NC NEWS API",
-      id: 1,
+      id: 2,
       git: 'https://github.com/KcalbJ/Nc-news',
       hosted: 'https://nc-news-opvy.onrender.com/api',
       stack: ["Postgress", "Node", "Express", "Jest"],
@@ -16,7 +26,7 @@ export const cards = [
     {
         url: image2,
         title: "NC NEWSLI FRONT END",
-        id: 2,
+        id: 3,
         git: 'https://github.com/KcalbJ/nc-news-fe',
         hosted: 'https://nc-newsli.netlify.app/?sort_by=created_at&order=desc',
         stack: ["React", "Axios", "Tailwind","Netlify"],
@@ -26,7 +36,7 @@ export const cards = [
         {
           url: image3,
           title: "BEANLY E-COMMERCE",
-          id: 3,
+          id: 4,
           git: 'https://github.com/KcalbJ/easy-commerce',
           hosted: 'https://easy-commerce-peach.vercel.app/',
           stack: ["Nextjs", "Vercel", "Tailwind"],
