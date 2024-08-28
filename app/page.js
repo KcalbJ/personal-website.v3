@@ -13,7 +13,7 @@ export default function Home() {
          <h2 className="text-2xl font-bold">ABOUT</h2>
           <div className="mt-4 text-slate-300">
             <p className="leading-8 text-lg text-left pt-2">
-              Im a software developer from Hastings with a strong passion for
+              Im a software developer and tinkerer from Hastings with a strong passion for
               creating impactful digital solutions.{" "}
             </p>
             <p className="leading-8 text-lg text-left pt-2">
