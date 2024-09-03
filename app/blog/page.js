@@ -19,7 +19,7 @@ export default function Component() {
                 Welcome to my tech blog! Here, Ill be sharing my
                 journey through the world of tech, focusing mostly on hacking,
                 reverse engineering, and some programming. I hope to earn a few certs along the way. Ill do my best to
-                stay on track and offer some useful insights, but I can't make
+                stay on track and offer some useful insights, but I cant make
                 any promises on the insights part! Anyway if youre here I hope you find something interesting!
               </p>
             </div>
