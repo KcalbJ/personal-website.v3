@@ -7,7 +7,7 @@ function Header() {
       <div className="text-wrap">
         
         <h1 className="text-6xl lg:text-7xl pb-2 tracking-tight font-bold">
-          HEY, I'M<br></br> <Link href="/">  <span className="text-lime-300">JAMES BLACK</span></Link>
+          HEY, IM<br></br> <Link href="/">  <span className="text-lime-300">JAMES BLACK</span></Link>
           </h1>
         
         <h2 className="text-3xl font-medium lg:mt-16 mt-6 mx-auto tracking-tight text-slate-300">
