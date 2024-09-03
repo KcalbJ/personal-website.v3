@@ -16,7 +16,7 @@ function ProjectCard({ card }) {
             className="object-contain flex  mr-4 drop-shadow-xl object-left-top py-2 rounded-xl"
           />
        
-        <div className="flex flex-col">
+        <div className="flex flex-col"> 
           <div className="flex flex-row">
             <a
               href={card.hosted}

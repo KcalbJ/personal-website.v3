@@ -26,3 +26,23 @@
   pointer-events: none;
   background: url(/noise.gif) ;
 }
+
+.custom-markdown-content h2 {
+  @apply text-2xl font-bold text-white;
+}
+
+
+.custom-markdown-content h3 {
+  @apply text-xl font-bold text-white;
+}
+.custom-markdown-content p {
+  @apply leading-8 text-lg text-left pt-2 text-slate-300;
+}
+
+.custom-markdown-content ul, .custom-markdown-content ol {
+  @apply list-inside pl-4;
+}
+
+.custom-markdown-content blockquote {
+  @apply border-l-4 border-slate-300 pl-4 italic text-slate-500;
+}

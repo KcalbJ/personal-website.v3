@@ -7,7 +7,7 @@ export default function Home() {
       <Header/>
 
    
-    <main className="lg:w-3/5 lg:py-24" >
+    <main className="lg:w-3/5 lg:py-24 " >
       <section id="about"className="mt-24 ">
         <div className="text-wrap flex-col">
          <h2 className="text-2xl font-bold">ABOUT</h2>
