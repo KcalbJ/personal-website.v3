@@ -18,7 +18,7 @@ function BlogHeader() {
             </h1>
           </Link>
           <h2 className="text-6xl lg:text-7xl font-bold mx-auto tracking-tight text-lime-300">
-            Tinkering Blog
+            CYBER SEC BLOG
           </h2>
           <h2 className="text-3xl font-medium lg:mt-16 mt-6 mx-auto tracking-tight text-slate-300">
             Software Breaker
